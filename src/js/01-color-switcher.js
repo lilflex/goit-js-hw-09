@@ -10,7 +10,7 @@ btnStart.addEventListener('click', () => {
   btnStop.disabled = false;
   timerId = setInterval(() => {
     document.body.style.background = getRandomHexColor();
-  }, 500);
+  }, 1000);
 });
 btnStop.addEventListener('click', () => {
   clearInterval(timerId);
